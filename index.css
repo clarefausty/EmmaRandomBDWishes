@@ -1,0 +1,39 @@
+body {
+    background-image: repeating-linear-gradient(#023047, #fb8500 10%, #219EBC 20%);
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Bentham', serif;
+    font-family: 'Playfair Display', serif;
+}
+#gen{
+    margin: 3em 0 0 0;
+    color: #ffffff;
+    animation-name: animation;
+    animation-duration: 10s;
+}
+@keyframes animation {
+    0%{color: #b5838d;}
+    25%{color: #ffb;}
+    50%{color:#023047;}
+    100%{color: #6D6875;}
+}
+#b-wishes{
+    color:#ffffff;
+    font-size:larger;
+}
+#music {
+    margin-top: 3em;
+}
+.btn{
+    color: #ffffff;
+    background-color: #ffb703;
+    padding: 0.8em 2em 0.8em 2em;
+    border: none;
+    border-radius: 0.3em;
+    line-height: 4em;
+    width: 15em;
+    margin: 7em 0 2em 0;
+    font-weight:bolder;
+    font-size: large;
+}
+
